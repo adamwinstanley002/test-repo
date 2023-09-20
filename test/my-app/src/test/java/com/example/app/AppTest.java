@@ -23,4 +23,10 @@ public class AppTest
     {
         assertTrue(5 + 4 == 9);
     }
+    
+    @Test
+    public void testSubtraction()
+    {
+        assertTrue(5 - 4 == 1);
+    }
 }
