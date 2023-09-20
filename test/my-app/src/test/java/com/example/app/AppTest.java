@@ -27,6 +27,7 @@ public class AppTest
     @Test
     public void testSubtraction()
     {
+        System.out.println("Current time is: " + System.currentTimeMillis());
         assertTrue(5 - 4 == 1);
     }
 }
